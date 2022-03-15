@@ -1,0 +1,326 @@
+
+body {
+    margin: 0;
+    padding: 0;
+	font-family: 'Taviraj', serif;
+}
+header{
+	background: url(../images/banner.jpg) no-repeat;
+	background-size: auto;
+	height: 437px;
+	padding: 25px 20px 40px;
+	background-size: cover;
+	
+}
+.manu_bur{
+	overflow: auto;
+}
+.logo {
+	
+	float: left;
+}
+
+.logo > a{
+	text-decoration:none;
+	font-size: 18px;
+	color:#fff;
+	font-family: 'Taviraj',srif;
+	font-weight: 300;
+}
+
+.manu {
+	
+	float:right;
+}
+
+.manu > ul{
+	
+	padding:0;
+	margin:0;
+	list-style:none;
+	
+}
+.manu > ul >li{
+	
+	float:left;
+}
+
+.manu > ul > li > a{
+	text-decoration: none;
+	color:#fff;
+	font-size:16px;
+	padding:0 15px;
+	font-weight:300;
+	font-family:'Taviraj',srif;
+	
+}
+
+.header_caption {
+	
+	width: 607px;
+	margin: 0 auto;
+	text-align:center;
+	padding:150px 0;
+	
+	
+}
+
+.header_caption > h1 {
+    font-size: 59px;
+    color: #fff;
+    margin: -75px 0px 14px;
+}
+.header_caption >a{
+	
+	color:#fff;
+	font-size:22px;
+	font-weight:300;
+	line-height: 36px;
+	margin:30px 0;
+	
+}
+
+.header_caption >p{
+	color:#a6a6a7;
+	font-size:21px;
+	font-weight:300;
+	line-height:30px;
+	margin:30px 0;
+	
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color:#5aa6ed;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.button_two {
+	color: white;
+	padding: 10px 26px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: rgba(0,0,0,.2);
+	border: 2px solid #505050;
+	border-radius: 4px;
+	
+}
+
+.bg_img > img{
+	width:100%;
+	
+}
+
+.bg_img {
+    line-height: 0px;
+}
+
+.featured{
+	padding: 90px 0px 86px;
+	background-color: #f2f2f2;
+	
+}
+.featured > p{
+	text-align:center;
+	font-size:13px;
+	color:#bbb;
+	
+}
+.featured > p > a{
+	color:#5AA6ED;
+	text-decoration: underline;
+}
+
+
+
+.contend_heade > h2 {
+	text-align: center;
+	font-size: 26px;
+	text-transform: uppercase;
+	margin: 0px 0px 20px;
+	padding: 0;
+	
+	
+}
+
+.contend_heade > p{
+	
+	color:#999999;
+	font-size:18px;
+	text-align:center;
+	margin-top:1px;
+	
+	
+}
+.contend {
+	background-color: #ffffff;
+	padding: 42px;
+}
+
+.contend_dc{
+	
+	border-top: 1px solid #999cb8;
+	color: #999;
+	font-size: 14px;
+	
+}
+
+.contend_dc p {
+
+}
+
+
+
+.discruption > h3{
+	color:#ffffff;
+	font-size:20px;
+	text-transform:uppercase;
+	font-weight: 400;
+	
+	
+}
+
+
+section.wrapper {
+    padding:0;
+    margin: 0px;
+    background: url(../images/bg.jpg) no-repeat center fixed;
+    background-size: cover;
+	height:auto;
+
+}
+
+.solw_dwon {
+	background: rgba(0,0,0,.7);
+	padding: 90px 0px;
+}
+
+.col_box{
+	text-align:center;
+	color:#fff;
+	
+}
+
+
+.col{
+
+	border-left: 1px solid #999cb8;
+	border-right: 1px solid #999cb8;
+	
+}
+
+.cler_border{
+	border-left:0px;
+	border-right:0px;
+}
+
+
+section.img_conten{
+	
+	background:#f2f2f2;
+	padding: 90px 0px;
+	
+}
+
+
+.img_content {
+	width: 50%;
+	color: #a6a6a6;
+	float:left;
+}
+.img_con1{
+	padding: 0px 43px 0px 0px;
+	float:left;
+}
+.img_con2{
+	padding: 0px 0px 0px 43px;
+	float:right;
+}
+
+.img_con {
+    overflow: auto;
+}
+.last_con{
+	color:#fff;
+	text-align:center;
+	
+}
+
+.last_con > p{
+	color:#bbb;
+	
+}
+
+.last_con > h2{
+	color:#bbb;
+	
+}
+footer.las_con{
+	padding: 90px 0px 86px;
+	background-color: #f2f2f2;
+}
+
+.contact_head > h2{
+	text-align:center;
+	font-size:26px;
+	text-transform:uppercase;
+	color:#555;
+	border-bottom: 1px solid #999cb8;
+	
+}
+
+.contact_grid{
+	width: 513px;
+	float:left;
+	margin: 30px 15px;
+}
+
+.mr_0{
+	margin-right:0px;
+}
+.ml_0{
+	margin-left:0px;
+}
+
+
+
+input[type=text],select,textarea{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	background: rgba(144, 144, 144, 0.075);
+	border: 1px solid rgba(144, 144, 144, 0.25);
+	border-radius: 4px;
+	color: #555;
+	
+
+}
+	
+label{
+	color: #555;
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0 0 16px 0;
+}
+.contact_full{
+	margin: 30px 0px;
+}
+.bt {
+    text-align: center;
+    list-style: none;
+
+}
